@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:layout_gravity="center"
+    android:padding="4dp"
+    android:background="#3377a2" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center_vertical"
+        android:clickable="true"
+        android:src="@drawable/davraz" />
+
+    <ImageView
+        android:id="@+id/wifi"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:layout_marginRight="170dp"
+        android:src="@drawable/wifi" />
+
+    <TextView
+        android:id="@+id/DateTime"
+        android:layout_width="128dp"
+        android:layout_height="64dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="54dp"
+        android:gravity="right"
+        android:text="SAAT\nTARİH"
+        android:textColor="#FFF"
+        android:textSize="15sp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/dataTransfer_image"
+        android:layout_width="50dp"
+        android:layout_height="64dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/data_transfer" />
+
+</RelativeLayout>

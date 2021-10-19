@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg"
+        android:backgroundTint="#66FFFFFF"
+        android:backgroundTintMode="src_atop">
+
+        <include layout="@layout/titlebar" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:height="80dp"
+        android:background="@drawable/rounded_corner"
+        android:fontFamily="serif"
+        android:paddingTop="10dp"
+        android:text="Lütfen Satış yapmak istediğiniz kart tipini seçin."
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:visibility="visible" />
+    <Button
+        android:id="@+id/bilet_bas"
+        style="@style/buttonNumberStyle"
+        android:layout_width="344dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_number_violet_shape"
+        android:text="Bilet"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/kart_iade"
+        style="@style/buttonNumberStyle"
+        android:layout_width="344dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/button_number_violet_shape"
+        android:onClick="kart_iade"
+        android:text="Kart Iade"
+        android:textSize="18dp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/myLayout0"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+

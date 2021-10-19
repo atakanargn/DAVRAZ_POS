@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:backgroundTint="#66FFFFFF"
+    android:backgroundTintMode="src_atop"
+    android:layout_gravity="center">
+
+    <include layout="@layout/titlebar" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_corner"
+        android:fontFamily="serif"
+        android:text="Fiş yazdırma işlemi"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="32sp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/printReceipt"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_number_violet_shape"
+        android:text="YAZDIR"
+        android:textSize="24dp"
+        />
+
+
+</LinearLayout>

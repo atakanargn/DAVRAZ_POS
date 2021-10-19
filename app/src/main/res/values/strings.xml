@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">POS</string>
+    <string name="operation_result">Result</string>
+    <string name="LowBattery">Low battery, please connect the charger!</string>
+    <string name="dialog_comfirm">ConFirm</string>
+    <string name="overTemp">over temp !</string>
+    <string name="noPaper">dfv</string>
+    <string name="noPaperNotice">dfdfcd</string>
+    <string name="sure">az</string>
+    <string name="input_print_data">Please input print data</string>
+    <string name="D_barcode_loading">Qrcode loading</string>
+    <string name="generate_barcode_wait">Generating barcode, please wait……</string>
+    <string name="printInit">Printer initialing... Please try again after a few seconds.</string>
+    <string name="empty">The content is empty！</string>
+    <string name="bl_dy">Print</string>
+    <string name="printing_wait">Printing, please wait……</string>
+
+    <string name="bt_flush_led_title">FLUSH LED</string>
+    <string name="bt_flush_led_open">OPEN</string>
+    <string name="bt_flush_led_close">CLOSE</string>
+
+    <string name="bt_proximity_sensor_title">PROXIMITY SENSOR</string>
+    <string name="tv_proximity_sensor_someone">SOMEONE</string>
+    <string name="tv_proximity_sensor_none">NONE</string>
+    <string name="tv_proximity_sensor_error">ERROR</string>
+    <string name="start_service">start_service</string>
+    <string name="stop_service">stop_service</string>
+
+    <string name="bt_relay_title">RELAY</string>
+    <string name="bt_relay_open">OPEN</string>
+    <string name="bt_relay_close">CLOSE</string>
+
+    <string name="bt_rs485_title">RS485</string>
+    <string name="bt_rs485_send">SWITCH TO SEND MODE</string>
+    <string name="bt_rs485_receive">SWITCH TO RECEIVE MODE</string>
+
+    <string name="bt_nfc_title">NFC</string>
+    <string name="tv_nfc_notsupport">The device does not support NFC</string>
+    <string name="tv_nfc_working">Kartınızı okutun</string>
+    <string name="tv_nfc_notwork">Please Go To Settings And Open The NFC Switch</string>
+
+    <string name="send_wg26_msg">Send a 26-bit Wiegand signal</string>
+    <string name="send_wg32_msg">Send a 32-bit Wiegand signal</string>
+    <string name="send_wg34_msg">Send a 34-bit Wiegand signal</string>
+
+    <string name="bt_contrl_title">Control</string>
+    <string name="remove">Remove</string>
+    <string name="not_remove">Not remove</string>
+
+    <string name="bt_led_title">LED</string>
+    <string name="bt_led_open">OPEN</string>
+    <string name="bt_led_close">CLOSE</string>
+
+    <string name="bt_bell_title">BELL</string>
+    <string name="bt_bell_open">OPEN</string>
+    <string name="bt_bell_close">CLOSE</string>
+
+    <string name="bt_color_led_title">COLOR LED</string>
+    <string name="bt_white_led_open">OPEN WHITE LED</string>
+    <string name="bt_white_led_close">CLOSE WHITE LED</string>
+    <string name="bt_red_led_open">OPEN RED LED</string>
+    <string name="bt_red_led_close">CLOSE RED LED</string>
+    <string name="bt_green_led_open">OPEN GREEN LED</string>
+    <string name="bt_green_led_close">CLOSE GREEN LED</string>
+
+    <string name="bt_led_brightness_title">LED BRIGHTNESS</string>
+
+    <string name="camera0_close">camera0 close</string>
+    <string name="camera0_open">camera0 open</string>
+    <string name="camera1_close">camera1 close</string>
+    <string name="camera1_open">camera1 open</string>
+    <string name="bt_camera_title">camera</string>
+
+</resources>

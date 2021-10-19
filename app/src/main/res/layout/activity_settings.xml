@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#125E89A5">
+
+    <include layout="@layout/titlebar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="İstasyon ID"
+                android:textSize="24dp" />
+
+            <Button
+                android:id="@+id/kurulumBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:text="BAĞLAN"
+                android:textSize="12dp"
+                android:onClick="kurulumMod"
+                android:enabled="false"
+                />
+
+            <EditText
+                android:id="@+id/istasyonID_edit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:inputType="text"
+                android:text="32DAVIST01"
+                android:textSize="24dp" />
+
+        </LinearLayout>
+
+        <View
+            android:background="#45000000"
+            android:layout_width = "match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="4dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".50"
+                android:text="Sunucu adresi"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:text="S_Port"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:text="A_Port"
+                android:textSize="24dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/sunucuIP_edit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".50"
+                android:inputType="text"
+                android:text="34.133.75.203"
+                android:textSize="24dp" />
+
+            <EditText
+                android:id="@+id/socketPort_edit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:inputType="number"
+                android:text="9872"
+                android:textSize="24dp" />
+
+            <EditText
+                android:id="@+id/apiPort_edit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:inputType="number"
+                android:text="9091"
+                android:textSize="24dp" />
+
+
+        </LinearLayout>
+        <View
+            android:background="#45000000"
+            android:layout_width = "match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="4dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KAYDET"
+            android:textSize="32dp"
+            android:layout_marginTop="16dp"
+            android:onClick="kaydet"/>
+
+    </LinearLayout>
+</LinearLayout>

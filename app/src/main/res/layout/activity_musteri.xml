@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/musteriLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#125E89A5">
+
+    <include layout="@layout/titlebar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="128dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="164dp"
+                    android:layout_height="wrap_content"
+                    android:text="Müşteri Resmi"
+                    android:textSize="24dp"
+                    android:layout_alignParentTop="true"/>
+
+                <Button
+                    android:layout_width="164dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentBottom="true"
+                    android:text="FOTOĞRAF ÇEK"
+                    android:textSize="20sp"
+                    android:id="@+id/takePhoto"/>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/fotograf"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_alignParentRight="true"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:inputType="text"
+                android:rotation="90"
+                android:scaleType="fitXY"
+                android:src="@drawable/avatar"
+                android:text="32DAVIST01"
+                android:textSize="24dp" />
+
+        </RelativeLayout>
+
+        <View
+            android:background="#45000000"
+            android:layout_width = "match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:text="Adı Soyadı"
+            android:textSize="24dp"
+            android:layout_alignParentTop="true"/>
+
+        <EditText
+            android:id="@+id/adSoyad"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="28dp"
+            android:text="Atakan Argın"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanımlanan Kart UID"
+            android:textSize="24dp"
+            android:layout_alignParentTop="true"/>
+
+        <EditText
+            android:id="@+id/kartUID"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="28dp"
+            android:text="--------"
+            android:enabled="false"
+            android:textAlignment="center"
+            />
+
+        <Button
+            android:id="@+id/kart_tanimla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KART TANIMLA"
+            android:textSize="32dp"
+            android:layout_marginTop="16dp"
+            android:onClick="kartTanimla"/>
+
+    </LinearLayout>
+</LinearLayout>

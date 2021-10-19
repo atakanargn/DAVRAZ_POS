@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Atakan/Desktop/PosAppDemo1(1)/POS/app/src/main/res/drawable/budgetbutton.xml" value="0.28541666666666665" />
+        <entry key="..\:/Users/Atakan/Desktop/PosAppDemo1(1)/POS/app/src/main/res/drawable/button_number_violet_shape.xml" value="0.3828125" />
+        <entry key="..\:/Users/Atakan/Desktop/PosAppDemo1(1)/POS/app/src/main/res/drawable/buttons.xml" value="0.28541666666666665" />
+        <entry key="..\:/Users/Atakan/Desktop/PosAppDemo1(1)/POS/app/src/main/res/drawable/ic_launcher_background.xml" value="0.28541666666666665" />
+        <entry key="..\:/Users/Atakan/Desktop/PosAppDemo1(1)/POS/app/src/main/res/drawable/rounded_corner.xml" value="0.28541666666666665" />
+        <entry key="..\:/Users/Atakan/Desktop/PosAppDemo1(1)/POS/app/src/main/res/layout/activity_budget_loading.xml" value="0.2598958333333333" />
+        <entry key="..\:/Users/Atakan/Desktop/PosAppDemo1(1)/POS/app/src/main/res/layout/activity_budget_receipt.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Atakan/Desktop/PosAppDemo1(1)/POS/app/src/main/res/layout/activity_kart_iade.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Atakan/Desktop/PosAppDemo1(1)/POS/app/src/main/res/layout/activity_kart_satis.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Atakan/Desktop/PosAppDemo1(1)/POS/app/src/main/res/layout/activity_musteri.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/Atakan/Desktop/PosAppDemo1(1)/POS/app/src/main/res/layout/activity_nfc.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Atakan/Desktop/PosAppDemo1(1)/POS/app/src/main/res/layout/activity_nfc0.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Atakan/Desktop/PosAppDemo1(1)/POS/app/src/main/res/layout/activity_pos_settings.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Atakan/Desktop/PosAppDemo1(1)/POS/app/src/main/res/layout/activity_qr_code_generator.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Atakan/Desktop/PosAppDemo1(1)/POS/app/src/main/res/layout/activity_settings.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Atakan/Desktop/PosAppDemo1(1)/POS/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Atakan/Desktop/PosAppDemo1(1)/POS/app/src/main/res/layout/activity_tip_secim.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Atakan/Desktop/PosAppDemo1(1)/POS/app/src/main/res/layout/footerbar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Atakan/Desktop/PosAppDemo1(1)/POS/app/src/main/res/layout/titlebar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Atakan/Desktop/PosAppDemo1(1)/PosAppDemo1/app/src/main/res/layout/activity_budget_receipt.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Atakan/Desktop/PosAppDemo1(1)/PosAppDemo1/app/src/main/res/layout/activity_daily_rapor.xml" value="0.3365036231884058" />
+        <entry key="..\:/Users/Atakan/Desktop/PosAppDemo1(1)/PosAppDemo1/app/src/main/res/layout/activity_nfc.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Atakan/Desktop/PosAppDemo1(1)/PosAppDemo1/app/src/main/res/layout/activity_qr_code_generator.xml" value="0.3365036231884058" />
+        <entry key="..\:/Users/Atakan/Desktop/PosAppDemo1(1)/PosAppDemo1/app/src/main/res/layout/titlebar.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
