@@ -95,7 +95,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight=".50"
                 android:inputType="text"
-                android:text="34.133.75.203"
+                android:text="88.255.248.244"
                 android:textSize="24dp" />
 
             <EditText

@@ -111,7 +111,7 @@ public class KartTipi extends Activity {
             myDb.ayarEkle("posIsim","-");
             myDb.ayarEkle("kurulum","0");
             myDb.ayarEkle("istasyonID", "-");
-            myDb.ayarEkle("sunucuIP", "34.133.68.189");
+            myDb.ayarEkle("sunucuIP", "88.255.248.244");
             myDb.ayarEkle("socketPort", "9872");
             myDb.ayarEkle("apiPort", "9091");
         }catch (Exception e){
@@ -133,7 +133,7 @@ public class KartTipi extends Activity {
                     .readTimeout(0, TimeUnit.MILLISECONDS)
                     .writeTimeout(0, TimeUnit.MILLISECONDS);
             options.callFactory = clientBuilder.build();
-            mSocket = IO.socket("http://34.133.68.189:9872",options);
+            mSocket = IO.socket("http://88.255.248.244:9872",options);
 
         } catch (URISyntaxException e) {
 
@@ -243,7 +243,7 @@ public class KartTipi extends Activity {
                 RequestBody body = RequestBody.create(JSON, jsonObject.toString());
 
                 OkHttpClient client = new OkHttpClient();
-                String url = "http://34.133.68.189:9091/api/qrticket/";
+                String url = "http://88.255.248.244:9091/api/qrticket/";
                 Request request = new Request.Builder()
                         .url(url)
                         .post(body)
